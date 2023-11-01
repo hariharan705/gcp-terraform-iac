@@ -3,5 +3,4 @@ steps:
   entrypoint: 'bash'
   args: ['-c','echo hari']
 options:
-  build: cloudbuild@data-tools-practice.iam.gserviceaccount.com
   logging: CLOUD_LOGGING_ONLY
