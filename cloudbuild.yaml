@@ -2,4 +2,6 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   entrypoint: 'bash'
   args: ['-c','echo hari']
-CLOUD_LOGGING_ONLY 
+options:
+  build: cloudbuild@data-tools-practice.iam.gserviceaccount.com
+  logging: CLOUD_LOGGING_ONLY
